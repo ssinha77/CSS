@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+div {
+  border: 1px dotted black;
+  margin: 100px 80px 40px 60px;
+  background-color: lightblue;
+  padding: 50px 30px 50px 30px;
+  max-width:500px;
+  height:100px;
+  outline: 5px solid yellow;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Using margin properties</h1>
+
+<h2>Using individual margin properties</h2>
+
+<div>This div element has a top margin of 100px, a right margin of 80px, a bottom margin of 40px, and a left margin of 60px.</div>
+
+</body>
+</html>
+
+

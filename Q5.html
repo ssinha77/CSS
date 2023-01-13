@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+ .sec-1{
+        width: 100%;
+        background-color: aqua;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        height:600px;
+    }
+    
+ .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}   
+.box {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 450px;
+}
+.block label { 
+        display: inline-block; 
+        width: 140px; 
+        text-align: left; 
+    }
+    
+  input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 5px 3px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+        <section class="sec-1">
+<h2>Connect With Us</h2>
+<p>We would love to respond to your queries and help you succeed.<br>
+Feel free to get in touch with us.</p>
+<div class="clearfix">
+
+
+  <div class="box" style="background-color:white">
+  <h2>Send Your Request</h2>
+   <form action="">
+                    <div class="block">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="block">
+                        <label for="email">Email
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="block">
+                        <label for="phone">Contact Number: </label>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                    <div class="block">
+                        <label for="subject">Subject: </label>
+                        <input type="subject" name="subject" id="subject">
+                    </div>
+                     <div class="block">
+                        <label for="message">Message: </label>
+                        <input type="text" name="message" id="message" maxlength="500">
+                    </div>
+                    <input type="submit" value="send" color="green">
+  
+  
+  </div>
+  <div class="box" style="background-color:blue">
+  <h2>Reach Us</h2>
+
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+

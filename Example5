@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Specify colors using HSL values</h1>
+
+<h2 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%)</h2>
+<h2 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%)</h2>
+<h2 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%)</h2>
+<h2 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%)</h2>
+<h2 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%)</h2>
+<h2 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%)</h2>
+
+<h3 style="background-color:hsl(154, 80%, 50%);">hsl(154, 80%, 50%)</h3>
+<h3 style="background-color:hsl(177, 40%, 60%);">hsl(177, 40%, 60%)</h3>
+<h3 style="background-color:hsl(187, 40%, 47%);">hsl(187, 40%, 47%)</h3>
+<h3 style="background-color:hsl(270, 79%, 72%);">hsl(270, 79%, 72%)</h3>
+<h3 style="background-color:hsl(96, 170%, 50%);">hsl(96, 170%, 50%)</h3>
+<h3 style="background-color:hsl(246, 53%, 58%);">hsl(246, 53%, 58%)</h3>
+
+
+<h1>Specify colors using RGBA values</h1>
+
+<h2 style="background-color:rgba(210, 66, 84, 0.1);">rgba(210, 66, 84, 0.1)</h2>
+<h2 style="background-color:rgba(210, 66, 84, 0.2);">rgba(210, 66, 84, 0.2)</h2>
+<h2 style="background-color:rgba(210, 66, 84, 0.4);">rgba(210, 66, 84, 0.4)</h2>
+<h2 style="background-color:rgba(210, 66, 84, 0.6);">rgba(210, 66, 84, 0.6)</h2>
+<h2 style="background-color:rgba(210, 66, 84, 0.8);">rgba(210, 66, 84, 0.8)</h2>
+<h2 style="background-color:rgba(210, 66, 84, 1);">rgba(210, 66, 84, 1)</h2>
+</body>
+</html>
+
+

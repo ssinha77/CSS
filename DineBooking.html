@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+h2{
+text-align: center;
+}
+ 
+input[type=text,number], select, textarea {
+  width: 60%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  padding: 5px 5px 5px 0;
+  display: inline-block;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+<div class="container">
+
+<h2>Dine Booking</h2>
+
+<form action="">
+  <label for="fname">Visitor name:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  
+  <label for="lname">Number of Members:</label>
+  <input type="text" id="lname" name="lname" ><br><br>
+  
+  <label for="fname">Contact Number:</label>
+  <input type="number" id="lname" name="lname" ><br><br>
+  
+  <label for="fname">Email:</label>
+    <input type="text" id="lname" name="lname" ><br><br>
+    
+  <label for="fname">Type of food:</label>
+    <input type="checkbox" id="Food Type1" name="Food Type1"         value="South Indian" >
+    <label for="Food Type1">South Indian</label>
+    <input type="checkbox" id="Food Type2" name="Food Type2"       value="North Indian" >
+    <label for="Food Type2">North Indian</label>
+     <input type="checkbox" id="Food Type3" name="Food Type3" value="Chinese" >
+     <label for="Food Type3">Chinese</label>
+      <input type="checkbox" id="Food Type4" name="Food Type4" value="Western" >
+      <label for="Food Type4">Western</label>
+    <br><br>
+    
+  <label for="fname">Room Status:</label>
+    <input type="radio" id="Room Type1" name="lname" >
+    <label for="html">AC</label>
+    <input type="radio" id="Room Type2" name="lname" >
+    <label for="html">Non-AC</label><br><br>
+    
+    <label for="Venue Preference">Venue Preference:</label>
+  <select id="Venue Preference" name="Venues">
+  <option value="Select">Select</option>
+    <option value="Royal Tadka">Royal Tadka</option>
+    <option value="Food Plaza">Food Plaza</option>
+    <option value="Royal Treat">Royal Treat</option>
+    <option value="Hotel Taj">Hotel Taj</option>
+    </select>
+    
+    
+  
+  <input type="submit" value="book">
+    <input type="submit" value="reset">
+
+</form> 
+
+</body>
+</html>
+
